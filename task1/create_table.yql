@@ -1,0 +1,14 @@
+CREATE TABLE transactions (
+    transaction_id Utf8,
+    merchant Utf8,
+    mcc Uint32,
+    currency Utf8,
+    amount Double,
+    transaction_date Date,
+    card_id Utf8,
+    card_type Utf8,
+    gender Utf8,
+    age Uint8,
+    country Utf8,
+    PRIMARY KEY (transaction_id)
+);
